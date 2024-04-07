@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+  - name: target
+    catalog: postgres
+    database: postgres
+    schema: public
+    config:
+      materialized: incremental
+      unique_key: "date"
+      incremental_strategy: "append"
+      views_enabled: false

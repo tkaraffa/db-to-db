@@ -1,0 +1,9 @@
+FROM python:3.11-slim
+
+RUN apt-get update \
+    && apt-get -y install libpq-dev gcc \
+    && pip install polars sqlalchemy pyarrow pandas psycopg2 pydantic
+
+COPY . .
+
+ENTRYPOINT ["python"]

@@ -1,0 +1,23 @@
+trino_project:
+  target: postgres
+  outputs:
+    postgres:
+      type: trino
+      method: none
+      user: .
+      password: .
+      host: trino-coordinator
+      database: postgres
+      schema: public
+      port: 8080
+      threads: 1
+    mysql:
+      type: trino
+      method: none
+      user: .
+      password: .
+      host: trino-coordinator
+      database: mysql
+      schema: tiny
+      port: 8080
+      threads: 1
