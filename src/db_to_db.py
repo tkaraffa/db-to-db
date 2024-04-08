@@ -2,14 +2,14 @@
 Load data from one database into a landing table,
 where that data can be upserted/merged into the target table.
 """
-from typing import Union, Literal, Iterable
+from typing import Union, Literal, Iterable, Any
 import argparse
 import logging
 import sys
 
 import polars as pl
 from pydantic import validate_call
-from sqlalchemy import MetaData, Table, select, Column, Selectable, text
+from sqlalchemy import MetaData, Table, Column, select, delete, Selectable, Delete
 
 from db_connector import DBConnection, DBConnector
 
@@ -114,18 +114,79 @@ def get_args():
         "--initial_write_behavior",
         type=str,
         choices=["fail", "replace", "append"],
-        default="replace",
+        default="append",
         help="Behavior for initial write to target table.",
+        metavar="BEHAVIOR",
     )
     parser.add_argument(
-        "--truncate_target_table",
+        "--delete_from_target_table",
         action="store_true",
-        help="""Flag to indicate whether or not to truncate target table before writing data, 
-        usually use with `append` initial write behavior.""",
+        help="""Flag to indicate whether or not to delete data from target table before writing data. 
+        Usually not needed, because `delete` should be handled by upstream tasks, 
+        but might be needed if job fails; 
+        the behavior of using this flag should be included in whatever orchestrates this script, 
+        e.g., `if retry: --delete_from_target_table`""",
     )
 
     args = parser.parse_args()
     return args
+
+
+@validate_call(config=dict(arbitrary_types_allowed=True))
+def add_where_clause(
+    query: Union[Selectable, Delete],
+    gte_column: str = None,
+    gte_value=None,
+    lt_column: str = None,
+    lt_value=None,
+):
+    if gte_column:
+        query = query.where(Column(gte_column) >= gte_value)
+    if lt_column:
+        query = query.where(Column(lt_column) < lt_value)
+    return query
+
+
+@validate_call(config=dict(arbitrary_types_allowed=True))
+def delete_from_table(
+    connection: DBConnection,
+    schema: str,
+    table: str,
+    metadata: MetaData,
+    gte_column: str = None,
+    gte_value: Any = None,
+    lt_column: str = None,
+    lt_value: Any = None,
+):
+    table_object = Table(
+        table, metadata, schema=schema, autoload_with=connection.engine
+    )
+    query = delete(table_object)
+    query = add_where_clause(query, gte_column, gte_value, lt_column, lt_value)
+    logger.info(f"Deleting data with {query}")
+    with connection.engine.connect().execution_options(
+        isolation_level="AUTOCOMMIT"
+    ) as conn:
+        conn.execute(query)
+
+
+@validate_call(config=dict(arbitrary_types_allowed=True))
+def get_select_query(
+    connection: DBConnection,
+    table: str,
+    schema: str,
+    metadata: MetaData,
+    gte_column: str = None,
+    gte_value: Any = None,
+    lt_column: str = None,
+    lt_value: Any = None,
+) -> select:
+    table_object = Table(
+        table, metadata, schema=schema, autoload_with=connection.engine
+    )
+    query = select("*").select_from(table_object)
+    query = add_where_clause(query, gte_column, gte_value, lt_column, lt_value)
+    return query
 
 
 @validate_call(config=dict(arbitrary_types_allowed=True))
@@ -138,20 +199,8 @@ def db_to_db(
     batch_size: int = DEFAULT_BATCH_SIZE,
     initial_behavior: Union[
         Literal["fail"], Literal["replace"], Literal["append"]
-    ] = "fail",
-    truncate_target_table: bool = False,
+    ] = "append",
 ) -> None:
-    if truncate_target_table:
-        logger.info(f"Truncating target table {target_schema}.{target_table}.")
-        with target_connection.engine.connect().execution_options(
-            autocommit=True
-        ) as conn:
-            conn.execute(
-                text(f"truncate table {target_schema}.{target_table}").compile(
-                    target_connection.engine
-                )
-            )
-
     with source_connection.engine.connect() as conn:
         dfs: Iterable[pl.DataFrame] = pl.read_database(
             query,
@@ -194,7 +243,7 @@ def main():
     lt_value = args.lt_value
     batch_size = args.batch_size
     initial_behavior = args.initial_write_behavior
-    truncate_target_table = args.truncate_target_table
+    delete_from_target_table = args.delete_from_target_table
 
     if bool(lt_column) is not bool(lt_value):
         raise ValueError("lt_column and lt_value must be both set or both unset")
@@ -209,44 +258,37 @@ def main():
 
     metadata = MetaData()
 
-    source_table_object = Table(source_table, metadata, schema=source_schema)
-
-    query = select("*").select_from(source_table_object)
-    if gte_column:
-        query = query.where(Column(gte_column) >= gte_value)
-    if lt_column:
-        query = query.where(Column(lt_column) < lt_value)
-
-    try:
-        db_to_db(
-            query,
-            source_connection,
+    if delete_from_target_table:
+        delete_from_table(
             target_connection,
             target_schema,
             target_table,
-            batch_size=batch_size,
-            initial_behavior=initial_behavior,
-            truncate_target_table=truncate_target_table,
+            metadata,
+            gte_column=gte_column,
+            gte_value=gte_value,
+            lt_column=lt_column,
+            lt_value=lt_value,
         )
-    except MemoryError as e:
-        batch_size = int(batch_size / 2)
-        logger.warning(
-            f"MemoryError {e} caught, retrying with smaller batch size of {batch_size}"
-        )
-        if truncate_target_table is True:
-            retry_behavior = "append"
-        else:
-            retry_behavior = "replace"
-        db_to_db(
-            query,
-            source_connection,
-            target_connection,
-            target_schema,
-            target_table,
-            batch_size=batch_size,
-            truncate_target_table=truncate_target_table,
-            initial_behavior=retry_behavior,
-        )
+    query = get_select_query(
+        source_connection,
+        source_table,
+        source_schema,
+        metadata,
+        gte_column,
+        gte_value,
+        lt_column,
+        lt_value,
+    )
+
+    db_to_db(
+        query,
+        source_connection,
+        target_connection,
+        target_schema,
+        target_table,
+        batch_size=batch_size,
+        initial_behavior=initial_behavior,
+    )
 
 
 if __name__ == "__main__":
