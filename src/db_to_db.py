@@ -4,15 +4,25 @@ where that data can be upserted/merged into the target table.
 """
 from typing import Union, Literal, Iterable
 import argparse
+import logging
+import sys
 
 import polars as pl
 from pydantic import validate_call
-from sqlalchemy import MetaData, Table, select, Column, Selectable
-from sqlalchemy.orm import declarative_base
+from sqlalchemy import MetaData, Table, select, Column, Selectable, text
 
 from db_connector import DBConnection, DBConnector
 
 DEFAULT_BATCH_SIZE = 10000
+logger = logging.getLogger()
+logger.setLevel(logging.DEBUG)
+formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+
+stdout_handler = logging.StreamHandler(sys.stdout)
+stdout_handler.setLevel(logging.DEBUG)
+stdout_handler.setFormatter(formatter)
+
+logger.addHandler(stdout_handler)
 
 
 def get_args():
@@ -100,6 +110,20 @@ def get_args():
         metavar="VALUE",
     )
 
+    parser.add_argument(
+        "--initial_write_behavior",
+        type=str,
+        choices=["fail", "replace", "append"],
+        default="replace",
+        help="Behavior for initial write to target table.",
+    )
+    parser.add_argument(
+        "--truncate_target_table",
+        action="store_true",
+        help="""Flag to indicate whether or not to truncate target table before writing data, 
+        usually use with `append` initial write behavior.""",
+    )
+
     args = parser.parse_args()
     return args
 
@@ -112,8 +136,22 @@ def db_to_db(
     target_schema: str,
     target_table: str,
     batch_size: int = DEFAULT_BATCH_SIZE,
-    initial_behavior: Union[Literal["fail"], Literal["replace"]] = "fail",
+    initial_behavior: Union[
+        Literal["fail"], Literal["replace"], Literal["append"]
+    ] = "fail",
+    truncate_target_table: bool = False,
 ) -> None:
+    if truncate_target_table:
+        logger.info(f"Truncating target table {target_schema}.{target_table}.")
+        with target_connection.engine.connect().execution_options(
+            autocommit=True
+        ) as conn:
+            conn.execute(
+                text(f"truncate table {target_schema}.{target_table}").compile(
+                    target_connection.engine
+                )
+            )
+
     with source_connection.engine.connect() as conn:
         dfs: Iterable[pl.DataFrame] = pl.read_database(
             query,
@@ -123,19 +161,22 @@ def db_to_db(
         )
     rows = 0
     for i, chunk in enumerate(dfs):
-        print(f"Writing chunk {i+1} of size {batch_size} to database")
         if i == 0:
             table_exists_behavior = initial_behavior
         else:
             table_exists_behavior = "append"
+        logger.info(
+            f"Writing chunk {i+1} of size {batch_size} to database with if-exists behavior: {table_exists_behavior}"
+        )
+
         chunk.write_database(
             table_name=".".join([target_schema, target_table]),
             connection=target_connection.uri,
             if_table_exists=table_exists_behavior,
         )
         rows += len(chunk)
-        print(f"Chunk {i+1} written to database")
-    print(f"Total rows written: {rows}")
+        logger.info(f"Chunk {i+1} written to database")
+    logger.info(f"Total rows written: {rows}")
 
 
 def main():
@@ -152,6 +193,8 @@ def main():
     lt_column = args.lt_column
     lt_value = args.lt_value
     batch_size = args.batch_size
+    initial_behavior = args.initial_write_behavior
+    truncate_target_table = args.truncate_target_table
 
     if bool(lt_column) is not bool(lt_value):
         raise ValueError("lt_column and lt_value must be both set or both unset")
@@ -166,33 +209,8 @@ def main():
 
     metadata = MetaData()
 
-    # setup ---
-    # df = pl.DataFrame(
-    #     {
-    #         "a": [1, 2, 2, 3] * 11,
-    #         "b": [4, 5, 4, 6] * 11,
-    #         "c": ["2024-01-01", "2024-01-02", "2024-01-03", "2024-01-04"] * 11,
-    #     }
-    # )
-    #
-    # df.write_database(
-    #     table_name=".".join([source_schema, source_table]),
-    #     connection=source_connection.uri,
-    #     if_table_exists="append",
-    # )
-    # for _ in range(3):
-    #     df.write_database(
-    #         table_name=".".join([source_schema, source_table]),
-    #         connection=source_connection.uri,
-    #         if_table_exists="append",
-    #     )
-    target_table_object = Table(target_table, metadata, schema=target_schema)
-    declarative_base().metadata.drop_all(
-        bind=target_connection.engine, tables=[target_table_object]
-    )
-    # ---
-
     source_table_object = Table(source_table, metadata, schema=source_schema)
+
     query = select("*").select_from(source_table_object)
     if gte_column:
         query = query.where(Column(gte_column) >= gte_value)
@@ -207,11 +225,18 @@ def main():
             target_schema,
             target_table,
             batch_size=batch_size,
-            initial_behavior="fail",
+            initial_behavior=initial_behavior,
+            truncate_target_table=truncate_target_table,
         )
     except MemoryError as e:
         batch_size = int(batch_size / 2)
-        print(f"MemoryError: {e}; retrying with smaller batch size of {batch_size}")
+        logger.warning(
+            f"MemoryError {e} caught, retrying with smaller batch size of {batch_size}"
+        )
+        if truncate_target_table is True:
+            retry_behavior = "append"
+        else:
+            retry_behavior = "replace"
         db_to_db(
             query,
             source_connection,
@@ -219,19 +244,9 @@ def main():
             target_schema,
             target_table,
             batch_size=batch_size,
-            initial_behavior="replace",
+            truncate_target_table=truncate_target_table,
+            initial_behavior=retry_behavior,
         )
-
-    # # check
-    #
-    # with target_connection.engine.connect() as conn:
-    #     print(
-    #         pl.read_database(
-    #             f"select * from {target_schema}.{target_table}",
-    #             conn,
-    #         )
-    #     )
-    # # ---
 
 
 if __name__ == "__main__":

@@ -1,8 +1,0 @@
-version: '2'
-
-sources:
-  - name: mysql
-    database: mysql
-    schema: tiny
-    tables:
-      - name: source

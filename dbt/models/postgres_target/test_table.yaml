@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+  - name: test_table
+    database: pgdatabase
+    config:
+      schema: public
+      materialized: incremental
+      unique_key: "id"
+      incremental_strategy: "merge"
+      post-hook:
+        - 'truncate table {{''{{ source("raw", this.identifier) }}''}}'

@@ -1,10 +1,10 @@
 version: '3.7'
 services:
 
-  polars:
+  local:
     build:
       context: .
-      dockerfile: ./Dockerfile.polars
+      dockerfile: ./Dockerfile.local
 
     environment:
       - TARGET_USER=pg
@@ -17,21 +17,26 @@ services:
       - SOURCE_DATABASE=pgdatabase
       - SOURCE_PORT=5431
       - SOURCE_HOST=postgres-source
-#    networks:
-#      - trino-network
+    volumes:
+      - ./src:/src
+    networks:
+      - trino-network
 
 
-#  dbt:
-#    build:
-#      context: .
-#      dockerfile: ./Dockerfile
-#    hostname: dbt
-#    volumes:
-#      - ./dbt:/dbt
-#    networks:
-#      - trino-network
+  dbt:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.dbt
+    hostname: dbt
+    volumes:
+      - ./dbt:/dbt
+    environment:
+      - DBT_PROFILES_DIR=/dbt
+      - DBT_PROJECT_DIR=/dbt
+    networks:
+      - trino-network
 
-  trino-coordinator:
+  cluster:
     image: 'trinodb/trino:latest'
     hostname: trino-coordinator
     ports:
@@ -39,21 +44,9 @@ services:
     volumes:
       - ./etc:/etc/trino
       - ./sql:/sql
-#    networks:
-#      - trino-network
+    networks:
+      - trino-network
 
-#  mysql:
-#    image: mysql:latest
-#    hostname: mysql
-#    environment:
-#      MYSQL_ROOT_PASSWORD: admin
-#      MYSQL_USER: admin
-#      MYSQL_PASSWORD: admin
-#      MYSQL_DATABASE: tiny
-#    ports:
-#      - '3306:3306'
-#    networks:
-#      - trino-network
   postgres-target:
     image: postgres:latest
     hostname: postgres-target
@@ -64,8 +57,8 @@ services:
       - POSTGRES_USER=pg
       - POSTGRES_DB=pgdatabase
       - PGPORT=5430
-#    networks:
-#      - trino-network
+    networks:
+      - trino-network
 
   postgres-source:
     image: postgres:latest
@@ -77,9 +70,9 @@ services:
       - POSTGRES_USER=pg
       - POSTGRES_DB=pgdatabase
       - PGPORT=5431
-#    networks:
-#      - trino-network
-#networks:
-#  trino-network:
-#    driver: bridge
+    networks:
+      - trino-network
 
+networks:
+  trino-network:
+    driver: bridge

@@ -1,0 +1,765 @@
+2024-04-08 02:24:02,041 - INFO - Writing chunk 1 of size 21 to database
+2024-04-08 02:24:02,322 - INFO - Chunk 1 written to database
+2024-04-08 02:24:02,322 - INFO - Writing chunk 2 of size 21 to database
+2024-04-08 02:24:02,334 - INFO - Chunk 2 written to database
+2024-04-08 02:24:02,334 - INFO - Writing chunk 3 of size 21 to database
+2024-04-08 02:24:02,345 - INFO - Chunk 3 written to database
+2024-04-08 02:24:02,345 - INFO - Total rows written: 44
+2024-04-08 02:24:13,697 - INFO - Writing chunk 1 of size 21 to database
+2024-04-08 02:24:13,971 - INFO - Chunk 1 written to database
+2024-04-08 02:24:13,971 - INFO - Writing chunk 2 of size 21 to database
+2024-04-08 02:24:13,983 - INFO - Chunk 2 written to database
+2024-04-08 02:24:13,983 - INFO - Writing chunk 3 of size 21 to database
+2024-04-08 02:24:13,995 - INFO - Chunk 3 written to database
+2024-04-08 02:24:13,995 - INFO - Total rows written: 44
+2024-04-08 02:24:17,831 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:24:18,122 - INFO - Chunk 1 written to database
+2024-04-08 02:24:18,122 - INFO - Writing chunk 2 of size 2 to database
+2024-04-08 02:24:18,133 - INFO - Chunk 2 written to database
+2024-04-08 02:24:18,134 - INFO - Writing chunk 3 of size 2 to database
+2024-04-08 02:24:18,146 - INFO - Chunk 3 written to database
+2024-04-08 02:24:18,146 - INFO - Writing chunk 4 of size 2 to database
+2024-04-08 02:24:18,157 - INFO - Chunk 4 written to database
+2024-04-08 02:24:18,157 - INFO - Writing chunk 5 of size 2 to database
+2024-04-08 02:24:18,168 - INFO - Chunk 5 written to database
+2024-04-08 02:24:18,168 - INFO - Writing chunk 6 of size 2 to database
+2024-04-08 02:24:18,178 - INFO - Chunk 6 written to database
+2024-04-08 02:24:18,178 - INFO - Writing chunk 7 of size 2 to database
+2024-04-08 02:24:18,189 - INFO - Chunk 7 written to database
+2024-04-08 02:24:18,189 - INFO - Writing chunk 8 of size 2 to database
+2024-04-08 02:24:18,200 - INFO - Chunk 8 written to database
+2024-04-08 02:24:18,200 - INFO - Writing chunk 9 of size 2 to database
+2024-04-08 02:24:18,211 - INFO - Chunk 9 written to database
+2024-04-08 02:24:18,211 - INFO - Writing chunk 10 of size 2 to database
+2024-04-08 02:24:18,222 - INFO - Chunk 10 written to database
+2024-04-08 02:24:18,223 - INFO - Writing chunk 11 of size 2 to database
+2024-04-08 02:24:18,234 - INFO - Chunk 11 written to database
+2024-04-08 02:24:18,234 - INFO - Writing chunk 12 of size 2 to database
+2024-04-08 02:24:18,244 - INFO - Chunk 12 written to database
+2024-04-08 02:24:18,244 - INFO - Writing chunk 13 of size 2 to database
+2024-04-08 02:24:18,256 - INFO - Chunk 13 written to database
+2024-04-08 02:24:18,256 - INFO - Writing chunk 14 of size 2 to database
+2024-04-08 02:24:18,267 - INFO - Chunk 14 written to database
+2024-04-08 02:24:18,267 - INFO - Writing chunk 15 of size 2 to database
+2024-04-08 02:24:18,278 - INFO - Chunk 15 written to database
+2024-04-08 02:24:18,278 - INFO - Writing chunk 16 of size 2 to database
+2024-04-08 02:24:18,289 - INFO - Chunk 16 written to database
+2024-04-08 02:24:18,289 - INFO - Writing chunk 17 of size 2 to database
+2024-04-08 02:24:18,300 - INFO - Chunk 17 written to database
+2024-04-08 02:24:18,300 - INFO - Writing chunk 18 of size 2 to database
+2024-04-08 02:24:18,310 - INFO - Chunk 18 written to database
+2024-04-08 02:24:18,310 - INFO - Writing chunk 19 of size 2 to database
+2024-04-08 02:24:18,321 - INFO - Chunk 19 written to database
+2024-04-08 02:24:18,321 - INFO - Writing chunk 20 of size 2 to database
+2024-04-08 02:24:18,331 - INFO - Chunk 20 written to database
+2024-04-08 02:24:18,331 - INFO - Writing chunk 21 of size 2 to database
+2024-04-08 02:24:18,341 - INFO - Chunk 21 written to database
+2024-04-08 02:24:18,341 - INFO - Writing chunk 22 of size 2 to database
+2024-04-08 02:24:18,351 - INFO - Chunk 22 written to database
+2024-04-08 02:24:18,352 - INFO - Total rows written: 44
+2024-04-08 02:24:50,534 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:24:50,813 - INFO - Chunk 1 written to database
+2024-04-08 02:24:50,813 - INFO - Writing chunk 2 of size 2 to database
+2024-04-08 02:24:50,824 - INFO - Chunk 2 written to database
+2024-04-08 02:24:50,824 - INFO - Writing chunk 3 of size 2 to database
+2024-04-08 02:24:50,836 - INFO - Chunk 3 written to database
+2024-04-08 02:24:50,836 - INFO - Writing chunk 4 of size 2 to database
+2024-04-08 02:24:50,847 - INFO - Chunk 4 written to database
+2024-04-08 02:24:50,847 - INFO - Writing chunk 5 of size 2 to database
+2024-04-08 02:24:50,858 - INFO - Chunk 5 written to database
+2024-04-08 02:24:50,858 - INFO - Writing chunk 6 of size 2 to database
+2024-04-08 02:24:50,868 - INFO - Chunk 6 written to database
+2024-04-08 02:24:50,868 - INFO - Writing chunk 7 of size 2 to database
+2024-04-08 02:24:50,878 - INFO - Chunk 7 written to database
+2024-04-08 02:24:50,878 - INFO - Writing chunk 8 of size 2 to database
+2024-04-08 02:24:50,888 - INFO - Chunk 8 written to database
+2024-04-08 02:24:50,888 - INFO - Writing chunk 9 of size 2 to database
+2024-04-08 02:24:50,900 - INFO - Chunk 9 written to database
+2024-04-08 02:24:50,900 - INFO - Writing chunk 10 of size 2 to database
+2024-04-08 02:24:50,910 - INFO - Chunk 10 written to database
+2024-04-08 02:24:50,910 - INFO - Writing chunk 11 of size 2 to database
+2024-04-08 02:24:50,920 - INFO - Chunk 11 written to database
+2024-04-08 02:24:50,920 - INFO - Writing chunk 12 of size 2 to database
+2024-04-08 02:24:50,930 - INFO - Chunk 12 written to database
+2024-04-08 02:24:50,930 - INFO - Writing chunk 13 of size 2 to database
+2024-04-08 02:24:50,941 - INFO - Chunk 13 written to database
+2024-04-08 02:24:50,941 - INFO - Writing chunk 14 of size 2 to database
+2024-04-08 02:24:50,952 - INFO - Chunk 14 written to database
+2024-04-08 02:24:50,952 - INFO - Writing chunk 15 of size 2 to database
+2024-04-08 02:24:50,962 - INFO - Chunk 15 written to database
+2024-04-08 02:24:50,962 - INFO - Writing chunk 16 of size 2 to database
+2024-04-08 02:24:50,973 - INFO - Chunk 16 written to database
+2024-04-08 02:24:50,973 - INFO - Writing chunk 17 of size 2 to database
+2024-04-08 02:24:50,983 - INFO - Chunk 17 written to database
+2024-04-08 02:24:50,983 - INFO - Writing chunk 18 of size 2 to database
+2024-04-08 02:24:50,993 - INFO - Chunk 18 written to database
+2024-04-08 02:24:50,993 - INFO - Writing chunk 19 of size 2 to database
+2024-04-08 02:24:51,004 - INFO - Chunk 19 written to database
+2024-04-08 02:24:51,004 - INFO - Writing chunk 20 of size 2 to database
+2024-04-08 02:24:51,015 - INFO - Chunk 20 written to database
+2024-04-08 02:24:51,015 - INFO - Writing chunk 21 of size 2 to database
+2024-04-08 02:24:51,025 - INFO - Chunk 21 written to database
+2024-04-08 02:24:51,025 - INFO - Writing chunk 22 of size 2 to database
+2024-04-08 02:24:51,036 - INFO - Chunk 22 written to database
+2024-04-08 02:24:51,036 - INFO - Total rows written: 44
+2024-04-08 02:24:51,044 - INFO - shape: (44, 3)
+┌─────┬─────┬────────────┐
+│ a   ┆ b   ┆ c          │
+│ --- ┆ --- ┆ ---        │
+│ i64 ┆ i64 ┆ str        │
+╞═════╪═════╪════════════╡
+│ 1   ┆ 4   ┆ 2024-01-01 │
+│ 1   ┆ 4   ┆ 2024-01-01 │
+│ 1   ┆ 4   ┆ 2024-01-01 │
+│ 1   ┆ 4   ┆ 2024-01-01 │
+│ 1   ┆ 4   ┆ 2024-01-01 │
+│ …   ┆ …   ┆ …          │
+│ 1   ┆ 4   ┆ 2024-01-01 │
+│ 1   ┆ 4   ┆ 2024-01-01 │
+│ 1   ┆ 4   ┆ 2024-01-01 │
+│ 1   ┆ 4   ┆ 2024-01-01 │
+│ 1   ┆ 4   ┆ 2024-01-01 │
+└─────┴─────┴────────────┘
+2024-04-08 02:25:56,409 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:25:56,669 - INFO - Chunk 1 written to database
+2024-04-08 02:25:56,670 - INFO - Writing chunk 2 of size 2 to database
+2024-04-08 02:25:56,681 - INFO - Chunk 2 written to database
+2024-04-08 02:25:56,681 - INFO - Writing chunk 3 of size 2 to database
+2024-04-08 02:25:56,692 - INFO - Chunk 3 written to database
+2024-04-08 02:25:56,692 - INFO - Writing chunk 4 of size 2 to database
+2024-04-08 02:25:56,704 - INFO - Chunk 4 written to database
+2024-04-08 02:25:56,704 - INFO - Writing chunk 5 of size 2 to database
+2024-04-08 02:25:56,714 - INFO - Chunk 5 written to database
+2024-04-08 02:25:56,714 - INFO - Writing chunk 6 of size 2 to database
+2024-04-08 02:25:56,724 - INFO - Chunk 6 written to database
+2024-04-08 02:25:56,724 - INFO - Writing chunk 7 of size 2 to database
+2024-04-08 02:25:56,735 - INFO - Chunk 7 written to database
+2024-04-08 02:25:56,735 - INFO - Writing chunk 8 of size 2 to database
+2024-04-08 02:25:56,746 - INFO - Chunk 8 written to database
+2024-04-08 02:25:56,746 - INFO - Writing chunk 9 of size 2 to database
+2024-04-08 02:25:56,758 - INFO - Chunk 9 written to database
+2024-04-08 02:25:56,758 - INFO - Writing chunk 10 of size 2 to database
+2024-04-08 02:25:56,768 - INFO - Chunk 10 written to database
+2024-04-08 02:25:56,768 - INFO - Writing chunk 11 of size 2 to database
+2024-04-08 02:25:56,779 - INFO - Chunk 11 written to database
+2024-04-08 02:25:56,779 - INFO - Writing chunk 12 of size 2 to database
+2024-04-08 02:25:56,790 - INFO - Chunk 12 written to database
+2024-04-08 02:25:56,790 - INFO - Writing chunk 13 of size 2 to database
+2024-04-08 02:25:56,800 - INFO - Chunk 13 written to database
+2024-04-08 02:25:56,800 - INFO - Writing chunk 14 of size 2 to database
+2024-04-08 02:25:56,811 - INFO - Chunk 14 written to database
+2024-04-08 02:25:56,811 - INFO - Writing chunk 15 of size 2 to database
+2024-04-08 02:25:56,822 - INFO - Chunk 15 written to database
+2024-04-08 02:25:56,822 - INFO - Writing chunk 16 of size 2 to database
+2024-04-08 02:25:56,832 - INFO - Chunk 16 written to database
+2024-04-08 02:25:56,832 - INFO - Writing chunk 17 of size 2 to database
+2024-04-08 02:25:56,842 - INFO - Chunk 17 written to database
+2024-04-08 02:25:56,842 - INFO - Writing chunk 18 of size 2 to database
+2024-04-08 02:25:56,853 - INFO - Chunk 18 written to database
+2024-04-08 02:25:56,853 - INFO - Writing chunk 19 of size 2 to database
+2024-04-08 02:25:56,863 - INFO - Chunk 19 written to database
+2024-04-08 02:25:56,863 - INFO - Writing chunk 20 of size 2 to database
+2024-04-08 02:25:56,873 - INFO - Chunk 20 written to database
+2024-04-08 02:25:56,873 - INFO - Writing chunk 21 of size 2 to database
+2024-04-08 02:25:56,884 - INFO - Chunk 21 written to database
+2024-04-08 02:25:56,884 - INFO - Writing chunk 22 of size 2 to database
+2024-04-08 02:25:56,894 - INFO - Chunk 22 written to database
+2024-04-08 02:25:56,894 - INFO - Total rows written: 44
+2024-04-08 02:25:59,628 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:25:59,903 - INFO - Chunk 1 written to database
+2024-04-08 02:25:59,903 - INFO - Writing chunk 2 of size 2 to database
+2024-04-08 02:25:59,914 - INFO - Chunk 2 written to database
+2024-04-08 02:25:59,915 - INFO - Writing chunk 3 of size 2 to database
+2024-04-08 02:25:59,925 - INFO - Chunk 3 written to database
+2024-04-08 02:25:59,925 - INFO - Writing chunk 4 of size 2 to database
+2024-04-08 02:25:59,936 - INFO - Chunk 4 written to database
+2024-04-08 02:25:59,936 - INFO - Writing chunk 5 of size 2 to database
+2024-04-08 02:25:59,947 - INFO - Chunk 5 written to database
+2024-04-08 02:25:59,947 - INFO - Writing chunk 6 of size 2 to database
+2024-04-08 02:25:59,957 - INFO - Chunk 6 written to database
+2024-04-08 02:25:59,957 - INFO - Writing chunk 7 of size 2 to database
+2024-04-08 02:25:59,967 - INFO - Chunk 7 written to database
+2024-04-08 02:25:59,968 - INFO - Writing chunk 8 of size 2 to database
+2024-04-08 02:25:59,978 - INFO - Chunk 8 written to database
+2024-04-08 02:25:59,978 - INFO - Writing chunk 9 of size 2 to database
+2024-04-08 02:25:59,990 - INFO - Chunk 9 written to database
+2024-04-08 02:25:59,990 - INFO - Writing chunk 10 of size 2 to database
+2024-04-08 02:26:00,000 - INFO - Chunk 10 written to database
+2024-04-08 02:26:00,000 - INFO - Writing chunk 11 of size 2 to database
+2024-04-08 02:26:00,010 - INFO - Chunk 11 written to database
+2024-04-08 02:26:00,010 - INFO - Writing chunk 12 of size 2 to database
+2024-04-08 02:26:00,021 - INFO - Chunk 12 written to database
+2024-04-08 02:26:00,021 - INFO - Writing chunk 13 of size 2 to database
+2024-04-08 02:26:00,031 - INFO - Chunk 13 written to database
+2024-04-08 02:26:00,032 - INFO - Writing chunk 14 of size 2 to database
+2024-04-08 02:26:00,042 - INFO - Chunk 14 written to database
+2024-04-08 02:26:00,042 - INFO - Writing chunk 15 of size 2 to database
+2024-04-08 02:26:00,052 - INFO - Chunk 15 written to database
+2024-04-08 02:26:00,052 - INFO - Writing chunk 16 of size 2 to database
+2024-04-08 02:26:00,062 - INFO - Chunk 16 written to database
+2024-04-08 02:26:00,062 - INFO - Writing chunk 17 of size 2 to database
+2024-04-08 02:26:00,072 - INFO - Chunk 17 written to database
+2024-04-08 02:26:00,073 - INFO - Writing chunk 18 of size 2 to database
+2024-04-08 02:26:00,083 - INFO - Chunk 18 written to database
+2024-04-08 02:26:00,083 - INFO - Writing chunk 19 of size 2 to database
+2024-04-08 02:26:00,094 - INFO - Chunk 19 written to database
+2024-04-08 02:26:00,094 - INFO - Writing chunk 20 of size 2 to database
+2024-04-08 02:26:00,105 - INFO - Chunk 20 written to database
+2024-04-08 02:26:00,105 - INFO - Writing chunk 21 of size 2 to database
+2024-04-08 02:26:00,116 - INFO - Chunk 21 written to database
+2024-04-08 02:26:00,116 - INFO - Writing chunk 22 of size 2 to database
+2024-04-08 02:26:00,126 - INFO - Chunk 22 written to database
+2024-04-08 02:26:00,126 - INFO - Total rows written: 44
+2024-04-08 02:26:25,672 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:26:25,945 - INFO - Chunk 1 written to database
+2024-04-08 02:26:25,946 - INFO - Writing chunk 2 of size 2 to database
+2024-04-08 02:26:25,956 - INFO - Chunk 2 written to database
+2024-04-08 02:26:25,956 - INFO - Writing chunk 3 of size 2 to database
+2024-04-08 02:26:25,967 - INFO - Chunk 3 written to database
+2024-04-08 02:26:25,967 - INFO - Writing chunk 4 of size 2 to database
+2024-04-08 02:26:25,977 - INFO - Chunk 4 written to database
+2024-04-08 02:26:25,977 - INFO - Writing chunk 5 of size 2 to database
+2024-04-08 02:26:25,987 - INFO - Chunk 5 written to database
+2024-04-08 02:26:25,987 - INFO - Writing chunk 6 of size 2 to database
+2024-04-08 02:26:25,998 - INFO - Chunk 6 written to database
+2024-04-08 02:26:25,998 - INFO - Writing chunk 7 of size 2 to database
+2024-04-08 02:26:26,008 - INFO - Chunk 7 written to database
+2024-04-08 02:26:26,008 - INFO - Writing chunk 8 of size 2 to database
+2024-04-08 02:26:26,018 - INFO - Chunk 8 written to database
+2024-04-08 02:26:26,018 - INFO - Writing chunk 9 of size 2 to database
+2024-04-08 02:26:26,028 - INFO - Chunk 9 written to database
+2024-04-08 02:26:26,028 - INFO - Writing chunk 10 of size 2 to database
+2024-04-08 02:26:26,039 - INFO - Chunk 10 written to database
+2024-04-08 02:26:26,039 - INFO - Writing chunk 11 of size 2 to database
+2024-04-08 02:26:26,048 - INFO - Chunk 11 written to database
+2024-04-08 02:26:26,049 - INFO - Writing chunk 12 of size 2 to database
+2024-04-08 02:26:26,058 - INFO - Chunk 12 written to database
+2024-04-08 02:26:26,058 - INFO - Writing chunk 13 of size 2 to database
+2024-04-08 02:26:26,069 - INFO - Chunk 13 written to database
+2024-04-08 02:26:26,069 - INFO - Writing chunk 14 of size 2 to database
+2024-04-08 02:26:26,078 - INFO - Chunk 14 written to database
+2024-04-08 02:26:26,079 - INFO - Writing chunk 15 of size 2 to database
+2024-04-08 02:26:26,089 - INFO - Chunk 15 written to database
+2024-04-08 02:26:26,089 - INFO - Writing chunk 16 of size 2 to database
+2024-04-08 02:26:26,099 - INFO - Chunk 16 written to database
+2024-04-08 02:26:26,100 - INFO - Writing chunk 17 of size 2 to database
+2024-04-08 02:26:26,109 - INFO - Chunk 17 written to database
+2024-04-08 02:26:26,110 - INFO - Writing chunk 18 of size 2 to database
+2024-04-08 02:26:26,120 - INFO - Chunk 18 written to database
+2024-04-08 02:26:26,120 - INFO - Writing chunk 19 of size 2 to database
+2024-04-08 02:26:26,130 - INFO - Chunk 19 written to database
+2024-04-08 02:26:26,130 - INFO - Writing chunk 20 of size 2 to database
+2024-04-08 02:26:26,140 - INFO - Chunk 20 written to database
+2024-04-08 02:26:26,140 - INFO - Writing chunk 21 of size 2 to database
+2024-04-08 02:26:26,150 - INFO - Chunk 21 written to database
+2024-04-08 02:26:26,150 - INFO - Writing chunk 22 of size 2 to database
+2024-04-08 02:26:26,161 - INFO - Chunk 22 written to database
+2024-04-08 02:26:26,161 - INFO - Total rows written: 44
+2024-04-08 02:26:28,068 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:26:28,349 - INFO - Chunk 1 written to database
+2024-04-08 02:26:28,349 - INFO - Writing chunk 2 of size 2 to database
+2024-04-08 02:26:28,360 - INFO - Chunk 2 written to database
+2024-04-08 02:26:28,360 - INFO - Writing chunk 3 of size 2 to database
+2024-04-08 02:26:28,370 - INFO - Chunk 3 written to database
+2024-04-08 02:26:28,370 - INFO - Writing chunk 4 of size 2 to database
+2024-04-08 02:26:28,381 - INFO - Chunk 4 written to database
+2024-04-08 02:26:28,381 - INFO - Writing chunk 5 of size 2 to database
+2024-04-08 02:26:28,391 - INFO - Chunk 5 written to database
+2024-04-08 02:26:28,392 - INFO - Writing chunk 6 of size 2 to database
+2024-04-08 02:26:28,402 - INFO - Chunk 6 written to database
+2024-04-08 02:26:28,402 - INFO - Writing chunk 7 of size 2 to database
+2024-04-08 02:26:28,413 - INFO - Chunk 7 written to database
+2024-04-08 02:26:28,413 - INFO - Writing chunk 8 of size 2 to database
+2024-04-08 02:26:28,423 - INFO - Chunk 8 written to database
+2024-04-08 02:26:28,423 - INFO - Writing chunk 9 of size 2 to database
+2024-04-08 02:26:28,434 - INFO - Chunk 9 written to database
+2024-04-08 02:26:28,434 - INFO - Writing chunk 10 of size 2 to database
+2024-04-08 02:26:28,444 - INFO - Chunk 10 written to database
+2024-04-08 02:26:28,444 - INFO - Writing chunk 11 of size 2 to database
+2024-04-08 02:26:28,454 - INFO - Chunk 11 written to database
+2024-04-08 02:26:28,454 - INFO - Writing chunk 12 of size 2 to database
+2024-04-08 02:26:28,465 - INFO - Chunk 12 written to database
+2024-04-08 02:26:28,465 - INFO - Writing chunk 13 of size 2 to database
+2024-04-08 02:26:28,475 - INFO - Chunk 13 written to database
+2024-04-08 02:26:28,475 - INFO - Writing chunk 14 of size 2 to database
+2024-04-08 02:26:28,485 - INFO - Chunk 14 written to database
+2024-04-08 02:26:28,485 - INFO - Writing chunk 15 of size 2 to database
+2024-04-08 02:26:28,496 - INFO - Chunk 15 written to database
+2024-04-08 02:26:28,496 - INFO - Writing chunk 16 of size 2 to database
+2024-04-08 02:26:28,506 - INFO - Chunk 16 written to database
+2024-04-08 02:26:28,506 - INFO - Writing chunk 17 of size 2 to database
+2024-04-08 02:26:28,517 - INFO - Chunk 17 written to database
+2024-04-08 02:26:28,517 - INFO - Writing chunk 18 of size 2 to database
+2024-04-08 02:26:28,527 - INFO - Chunk 18 written to database
+2024-04-08 02:26:28,527 - INFO - Writing chunk 19 of size 2 to database
+2024-04-08 02:26:28,538 - INFO - Chunk 19 written to database
+2024-04-08 02:26:28,538 - INFO - Writing chunk 20 of size 2 to database
+2024-04-08 02:26:28,548 - INFO - Chunk 20 written to database
+2024-04-08 02:26:28,548 - INFO - Writing chunk 21 of size 2 to database
+2024-04-08 02:26:28,558 - INFO - Chunk 21 written to database
+2024-04-08 02:26:28,558 - INFO - Writing chunk 22 of size 2 to database
+2024-04-08 02:26:28,568 - INFO - Chunk 22 written to database
+2024-04-08 02:26:28,568 - INFO - Total rows written: 44
+2024-04-08 02:29:25,424 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:36:30,444 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:37:21,858 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:37:35,065 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:37:40,958 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:39:28,204 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:39:49,475 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:39:57,829 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:44:05,657 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:44:22,576 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:46:17,007 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 02:46:17,274 - INFO - Chunk 1 written to database
+2024-04-08 02:46:17,274 - INFO - Writing chunk 2 of size 2 to database
+2024-04-08 02:46:17,286 - INFO - Chunk 2 written to database
+2024-04-08 02:46:17,286 - INFO - Writing chunk 3 of size 2 to database
+2024-04-08 02:46:17,297 - INFO - Chunk 3 written to database
+2024-04-08 02:46:17,297 - INFO - Writing chunk 4 of size 2 to database
+2024-04-08 02:46:17,307 - INFO - Chunk 4 written to database
+2024-04-08 02:46:17,308 - INFO - Writing chunk 5 of size 2 to database
+2024-04-08 02:46:17,318 - INFO - Chunk 5 written to database
+2024-04-08 02:46:17,318 - INFO - Writing chunk 6 of size 2 to database
+2024-04-08 02:46:17,328 - INFO - Chunk 6 written to database
+2024-04-08 02:46:17,328 - INFO - Writing chunk 7 of size 2 to database
+2024-04-08 02:46:17,338 - INFO - Chunk 7 written to database
+2024-04-08 02:46:17,338 - INFO - Writing chunk 8 of size 2 to database
+2024-04-08 02:46:17,348 - INFO - Chunk 8 written to database
+2024-04-08 02:46:17,348 - INFO - Writing chunk 9 of size 2 to database
+2024-04-08 02:46:17,359 - INFO - Chunk 9 written to database
+2024-04-08 02:46:17,359 - INFO - Writing chunk 10 of size 2 to database
+2024-04-08 02:46:17,369 - INFO - Chunk 10 written to database
+2024-04-08 02:46:17,369 - INFO - Writing chunk 11 of size 2 to database
+2024-04-08 02:46:17,379 - INFO - Chunk 11 written to database
+2024-04-08 02:46:17,379 - INFO - Writing chunk 12 of size 2 to database
+2024-04-08 02:46:17,389 - INFO - Chunk 12 written to database
+2024-04-08 02:46:17,389 - INFO - Writing chunk 13 of size 2 to database
+2024-04-08 02:46:17,400 - INFO - Chunk 13 written to database
+2024-04-08 02:46:17,400 - INFO - Writing chunk 14 of size 2 to database
+2024-04-08 02:46:17,410 - INFO - Chunk 14 written to database
+2024-04-08 02:46:17,410 - INFO - Writing chunk 15 of size 2 to database
+2024-04-08 02:46:17,421 - INFO - Chunk 15 written to database
+2024-04-08 02:46:17,421 - INFO - Writing chunk 16 of size 2 to database
+2024-04-08 02:46:17,431 - INFO - Chunk 16 written to database
+2024-04-08 02:46:17,431 - INFO - Writing chunk 17 of size 2 to database
+2024-04-08 02:46:17,441 - INFO - Chunk 17 written to database
+2024-04-08 02:46:17,441 - INFO - Writing chunk 18 of size 2 to database
+2024-04-08 02:46:17,451 - INFO - Chunk 18 written to database
+2024-04-08 02:46:17,451 - INFO - Writing chunk 19 of size 2 to database
+2024-04-08 02:46:17,461 - INFO - Chunk 19 written to database
+2024-04-08 02:46:17,461 - INFO - Writing chunk 20 of size 2 to database
+2024-04-08 02:46:17,470 - INFO - Chunk 20 written to database
+2024-04-08 02:46:17,470 - INFO - Writing chunk 21 of size 2 to database
+2024-04-08 02:46:17,481 - INFO - Chunk 21 written to database
+2024-04-08 02:46:17,481 - INFO - Writing chunk 22 of size 2 to database
+2024-04-08 02:46:17,491 - INFO - Chunk 22 written to database
+2024-04-08 02:46:17,491 - INFO - Total rows written: 44
+2024-04-08 02:48:00,804 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 03:14:35,989 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 03:15:02,775 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 03:33:39,764 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 03:33:40,085 - INFO - Chunk 1 written to database
+2024-04-08 03:33:40,085 - INFO - Writing chunk 2 of size 2 to database
+2024-04-08 03:33:40,097 - INFO - Chunk 2 written to database
+2024-04-08 03:33:40,097 - INFO - Writing chunk 3 of size 2 to database
+2024-04-08 03:33:40,108 - INFO - Chunk 3 written to database
+2024-04-08 03:33:40,108 - INFO - Writing chunk 4 of size 2 to database
+2024-04-08 03:33:40,120 - INFO - Chunk 4 written to database
+2024-04-08 03:33:40,120 - INFO - Writing chunk 5 of size 2 to database
+2024-04-08 03:33:40,130 - INFO - Chunk 5 written to database
+2024-04-08 03:33:40,130 - INFO - Writing chunk 6 of size 2 to database
+2024-04-08 03:33:40,141 - INFO - Chunk 6 written to database
+2024-04-08 03:33:40,141 - INFO - Writing chunk 7 of size 2 to database
+2024-04-08 03:33:40,151 - INFO - Chunk 7 written to database
+2024-04-08 03:33:40,152 - INFO - Writing chunk 8 of size 2 to database
+2024-04-08 03:33:40,162 - INFO - Chunk 8 written to database
+2024-04-08 03:33:40,162 - INFO - Writing chunk 9 of size 2 to database
+2024-04-08 03:33:40,174 - INFO - Chunk 9 written to database
+2024-04-08 03:33:40,174 - INFO - Writing chunk 10 of size 2 to database
+2024-04-08 03:33:40,184 - INFO - Chunk 10 written to database
+2024-04-08 03:33:40,184 - INFO - Writing chunk 11 of size 2 to database
+2024-04-08 03:33:40,194 - INFO - Chunk 11 written to database
+2024-04-08 03:33:40,194 - INFO - Writing chunk 12 of size 2 to database
+2024-04-08 03:33:40,205 - INFO - Chunk 12 written to database
+2024-04-08 03:33:40,205 - INFO - Writing chunk 13 of size 2 to database
+2024-04-08 03:33:40,215 - INFO - Chunk 13 written to database
+2024-04-08 03:33:40,215 - INFO - Writing chunk 14 of size 2 to database
+2024-04-08 03:33:40,227 - INFO - Chunk 14 written to database
+2024-04-08 03:33:40,227 - INFO - Writing chunk 15 of size 2 to database
+2024-04-08 03:33:40,238 - INFO - Chunk 15 written to database
+2024-04-08 03:33:40,238 - INFO - Writing chunk 16 of size 2 to database
+2024-04-08 03:33:40,251 - INFO - Chunk 16 written to database
+2024-04-08 03:33:40,252 - INFO - Writing chunk 17 of size 2 to database
+2024-04-08 03:33:40,262 - INFO - Chunk 17 written to database
+2024-04-08 03:33:40,262 - INFO - Writing chunk 18 of size 2 to database
+2024-04-08 03:33:40,272 - INFO - Chunk 18 written to database
+2024-04-08 03:33:40,272 - INFO - Writing chunk 19 of size 2 to database
+2024-04-08 03:33:40,283 - INFO - Chunk 19 written to database
+2024-04-08 03:33:40,283 - INFO - Writing chunk 20 of size 2 to database
+2024-04-08 03:33:40,293 - INFO - Chunk 20 written to database
+2024-04-08 03:33:40,293 - INFO - Writing chunk 21 of size 2 to database
+2024-04-08 03:33:40,303 - INFO - Chunk 21 written to database
+2024-04-08 03:33:40,303 - INFO - Writing chunk 22 of size 2 to database
+2024-04-08 03:33:40,313 - INFO - Chunk 22 written to database
+2024-04-08 03:33:40,313 - INFO - Total rows written: 44
+2024-04-08 03:35:05,623 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 03:35:05,880 - INFO - Chunk 1 written to database
+2024-04-08 03:35:05,880 - INFO - Writing chunk 2 of size 2 to database
+2024-04-08 03:35:05,891 - INFO - Chunk 2 written to database
+2024-04-08 03:35:05,891 - INFO - Writing chunk 3 of size 2 to database
+2024-04-08 03:35:05,902 - INFO - Chunk 3 written to database
+2024-04-08 03:35:05,902 - INFO - Writing chunk 4 of size 2 to database
+2024-04-08 03:35:05,913 - INFO - Chunk 4 written to database
+2024-04-08 03:35:05,913 - INFO - Writing chunk 5 of size 2 to database
+2024-04-08 03:35:05,924 - INFO - Chunk 5 written to database
+2024-04-08 03:35:05,924 - INFO - Writing chunk 6 of size 2 to database
+2024-04-08 03:35:05,935 - INFO - Chunk 6 written to database
+2024-04-08 03:35:05,935 - INFO - Writing chunk 7 of size 2 to database
+2024-04-08 03:35:05,946 - INFO - Chunk 7 written to database
+2024-04-08 03:35:05,946 - INFO - Writing chunk 8 of size 2 to database
+2024-04-08 03:35:05,957 - INFO - Chunk 8 written to database
+2024-04-08 03:35:05,957 - INFO - Writing chunk 9 of size 2 to database
+2024-04-08 03:35:05,969 - INFO - Chunk 9 written to database
+2024-04-08 03:35:05,969 - INFO - Writing chunk 10 of size 2 to database
+2024-04-08 03:35:05,980 - INFO - Chunk 10 written to database
+2024-04-08 03:35:05,980 - INFO - Writing chunk 11 of size 2 to database
+2024-04-08 03:35:05,990 - INFO - Chunk 11 written to database
+2024-04-08 03:35:05,990 - INFO - Writing chunk 12 of size 2 to database
+2024-04-08 03:35:06,001 - INFO - Chunk 12 written to database
+2024-04-08 03:35:06,001 - INFO - Writing chunk 13 of size 2 to database
+2024-04-08 03:35:06,011 - INFO - Chunk 13 written to database
+2024-04-08 03:35:06,011 - INFO - Writing chunk 14 of size 2 to database
+2024-04-08 03:35:06,021 - INFO - Chunk 14 written to database
+2024-04-08 03:35:06,021 - INFO - Writing chunk 15 of size 2 to database
+2024-04-08 03:35:06,032 - INFO - Chunk 15 written to database
+2024-04-08 03:35:06,032 - INFO - Writing chunk 16 of size 2 to database
+2024-04-08 03:35:06,042 - INFO - Chunk 16 written to database
+2024-04-08 03:35:06,042 - INFO - Writing chunk 17 of size 2 to database
+2024-04-08 03:35:06,053 - INFO - Chunk 17 written to database
+2024-04-08 03:35:06,053 - INFO - Writing chunk 18 of size 2 to database
+2024-04-08 03:35:06,063 - INFO - Chunk 18 written to database
+2024-04-08 03:35:06,063 - INFO - Writing chunk 19 of size 2 to database
+2024-04-08 03:35:06,073 - INFO - Chunk 19 written to database
+2024-04-08 03:35:06,073 - INFO - Writing chunk 20 of size 2 to database
+2024-04-08 03:35:06,083 - INFO - Chunk 20 written to database
+2024-04-08 03:35:06,084 - INFO - Writing chunk 21 of size 2 to database
+2024-04-08 03:35:06,094 - INFO - Chunk 21 written to database
+2024-04-08 03:35:06,094 - INFO - Writing chunk 22 of size 2 to database
+2024-04-08 03:35:06,105 - INFO - Chunk 22 written to database
+2024-04-08 03:35:06,105 - INFO - Total rows written: 44
+2024-04-08 03:35:21,199 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 03:35:21,461 - INFO - Chunk 1 written to database
+2024-04-08 03:35:21,461 - INFO - Writing chunk 2 of size 2 to database
+2024-04-08 03:35:21,478 - INFO - Chunk 2 written to database
+2024-04-08 03:35:21,478 - INFO - Writing chunk 3 of size 2 to database
+2024-04-08 03:35:21,495 - INFO - Chunk 3 written to database
+2024-04-08 03:35:21,495 - INFO - Writing chunk 4 of size 2 to database
+2024-04-08 03:35:21,509 - INFO - Chunk 4 written to database
+2024-04-08 03:35:21,509 - INFO - Writing chunk 5 of size 2 to database
+2024-04-08 03:35:21,520 - INFO - Chunk 5 written to database
+2024-04-08 03:35:21,520 - INFO - Writing chunk 6 of size 2 to database
+2024-04-08 03:35:21,531 - INFO - Chunk 6 written to database
+2024-04-08 03:35:21,531 - INFO - Writing chunk 7 of size 2 to database
+2024-04-08 03:35:21,543 - INFO - Chunk 7 written to database
+2024-04-08 03:35:21,543 - INFO - Writing chunk 8 of size 2 to database
+2024-04-08 03:35:21,555 - INFO - Chunk 8 written to database
+2024-04-08 03:35:21,555 - INFO - Writing chunk 9 of size 2 to database
+2024-04-08 03:35:21,568 - INFO - Chunk 9 written to database
+2024-04-08 03:35:21,568 - INFO - Writing chunk 10 of size 2 to database
+2024-04-08 03:35:21,582 - INFO - Chunk 10 written to database
+2024-04-08 03:35:21,582 - INFO - Writing chunk 11 of size 2 to database
+2024-04-08 03:35:21,593 - INFO - Chunk 11 written to database
+2024-04-08 03:35:21,593 - INFO - Writing chunk 12 of size 2 to database
+2024-04-08 03:35:21,603 - INFO - Chunk 12 written to database
+2024-04-08 03:35:21,603 - INFO - Writing chunk 13 of size 2 to database
+2024-04-08 03:35:21,613 - INFO - Chunk 13 written to database
+2024-04-08 03:35:21,613 - INFO - Writing chunk 14 of size 2 to database
+2024-04-08 03:35:21,623 - INFO - Chunk 14 written to database
+2024-04-08 03:35:21,623 - INFO - Writing chunk 15 of size 2 to database
+2024-04-08 03:35:21,634 - INFO - Chunk 15 written to database
+2024-04-08 03:35:21,634 - INFO - Writing chunk 16 of size 2 to database
+2024-04-08 03:35:21,645 - INFO - Chunk 16 written to database
+2024-04-08 03:35:21,645 - INFO - Writing chunk 17 of size 2 to database
+2024-04-08 03:35:21,655 - INFO - Chunk 17 written to database
+2024-04-08 03:35:21,655 - INFO - Writing chunk 18 of size 2 to database
+2024-04-08 03:35:21,666 - INFO - Chunk 18 written to database
+2024-04-08 03:35:21,666 - INFO - Writing chunk 19 of size 2 to database
+2024-04-08 03:35:21,677 - INFO - Chunk 19 written to database
+2024-04-08 03:35:21,677 - INFO - Writing chunk 20 of size 2 to database
+2024-04-08 03:35:21,688 - INFO - Chunk 20 written to database
+2024-04-08 03:35:21,688 - INFO - Writing chunk 21 of size 2 to database
+2024-04-08 03:35:21,699 - INFO - Chunk 21 written to database
+2024-04-08 03:35:21,699 - INFO - Writing chunk 22 of size 2 to database
+2024-04-08 03:35:21,710 - INFO - Chunk 22 written to database
+2024-04-08 03:35:21,710 - INFO - Total rows written: 44
+2024-04-08 03:35:33,140 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 03:35:33,403 - INFO - Chunk 1 written to database
+2024-04-08 03:35:33,403 - INFO - Writing chunk 2 of size 2 to database
+2024-04-08 03:35:33,415 - INFO - Chunk 2 written to database
+2024-04-08 03:35:33,415 - INFO - Writing chunk 3 of size 2 to database
+2024-04-08 03:35:33,426 - INFO - Chunk 3 written to database
+2024-04-08 03:35:33,426 - INFO - Writing chunk 4 of size 2 to database
+2024-04-08 03:35:33,437 - INFO - Chunk 4 written to database
+2024-04-08 03:35:33,437 - INFO - Writing chunk 5 of size 2 to database
+2024-04-08 03:35:33,448 - INFO - Chunk 5 written to database
+2024-04-08 03:35:33,448 - INFO - Writing chunk 6 of size 2 to database
+2024-04-08 03:35:33,458 - INFO - Chunk 6 written to database
+2024-04-08 03:35:33,459 - INFO - Writing chunk 7 of size 2 to database
+2024-04-08 03:35:33,470 - INFO - Chunk 7 written to database
+2024-04-08 03:35:33,470 - INFO - Writing chunk 8 of size 2 to database
+2024-04-08 03:35:33,480 - INFO - Chunk 8 written to database
+2024-04-08 03:35:33,480 - INFO - Writing chunk 9 of size 2 to database
+2024-04-08 03:35:33,492 - INFO - Chunk 9 written to database
+2024-04-08 03:35:33,492 - INFO - Writing chunk 10 of size 2 to database
+2024-04-08 03:35:33,502 - INFO - Chunk 10 written to database
+2024-04-08 03:35:33,502 - INFO - Writing chunk 11 of size 2 to database
+2024-04-08 03:35:33,512 - INFO - Chunk 11 written to database
+2024-04-08 03:35:33,512 - INFO - Writing chunk 12 of size 2 to database
+2024-04-08 03:35:33,522 - INFO - Chunk 12 written to database
+2024-04-08 03:35:33,522 - INFO - Writing chunk 13 of size 2 to database
+2024-04-08 03:35:33,533 - INFO - Chunk 13 written to database
+2024-04-08 03:35:33,533 - INFO - Writing chunk 14 of size 2 to database
+2024-04-08 03:35:33,543 - INFO - Chunk 14 written to database
+2024-04-08 03:35:33,543 - INFO - Writing chunk 15 of size 2 to database
+2024-04-08 03:35:33,553 - INFO - Chunk 15 written to database
+2024-04-08 03:35:33,553 - INFO - Writing chunk 16 of size 2 to database
+2024-04-08 03:35:33,564 - INFO - Chunk 16 written to database
+2024-04-08 03:35:33,564 - INFO - Writing chunk 17 of size 2 to database
+2024-04-08 03:35:33,574 - INFO - Chunk 17 written to database
+2024-04-08 03:35:33,574 - INFO - Writing chunk 18 of size 2 to database
+2024-04-08 03:35:33,584 - INFO - Chunk 18 written to database
+2024-04-08 03:35:33,584 - INFO - Writing chunk 19 of size 2 to database
+2024-04-08 03:35:33,594 - INFO - Chunk 19 written to database
+2024-04-08 03:35:33,594 - INFO - Writing chunk 20 of size 2 to database
+2024-04-08 03:35:33,605 - INFO - Chunk 20 written to database
+2024-04-08 03:35:33,605 - INFO - Writing chunk 21 of size 2 to database
+2024-04-08 03:35:33,616 - INFO - Chunk 21 written to database
+2024-04-08 03:35:33,616 - INFO - Writing chunk 22 of size 2 to database
+2024-04-08 03:35:33,626 - INFO - Chunk 22 written to database
+2024-04-08 03:35:33,626 - INFO - Total rows written: 44
+2024-04-08 03:37:50,918 - INFO - Writing chunk 1 of size 2 to database
+2024-04-08 03:37:51,181 - INFO - Chunk 1 written to database
+2024-04-08 03:37:51,181 - INFO - Writing chunk 2 of size 2 to database
+2024-04-08 03:37:51,192 - INFO - Chunk 2 written to database
+2024-04-08 03:37:51,192 - INFO - Writing chunk 3 of size 2 to database
+2024-04-08 03:37:51,205 - INFO - Chunk 3 written to database
+2024-04-08 03:37:51,205 - INFO - Writing chunk 4 of size 2 to database
+2024-04-08 03:37:51,216 - INFO - Chunk 4 written to database
+2024-04-08 03:37:51,216 - INFO - Writing chunk 5 of size 2 to database
+2024-04-08 03:37:51,228 - INFO - Chunk 5 written to database
+2024-04-08 03:37:51,228 - INFO - Writing chunk 6 of size 2 to database
+2024-04-08 03:37:51,239 - INFO - Chunk 6 written to database
+2024-04-08 03:37:51,239 - INFO - Writing chunk 7 of size 2 to database
+2024-04-08 03:37:51,251 - INFO - Chunk 7 written to database
+2024-04-08 03:37:51,251 - INFO - Writing chunk 8 of size 2 to database
+2024-04-08 03:37:51,262 - INFO - Chunk 8 written to database
+2024-04-08 03:37:51,262 - INFO - Writing chunk 9 of size 2 to database
+2024-04-08 03:37:51,274 - INFO - Chunk 9 written to database
+2024-04-08 03:37:51,275 - INFO - Writing chunk 10 of size 2 to database
+2024-04-08 03:37:51,284 - INFO - Chunk 10 written to database
+2024-04-08 03:37:51,285 - INFO - Writing chunk 11 of size 2 to database
+2024-04-08 03:37:51,295 - INFO - Chunk 11 written to database
+2024-04-08 03:37:51,296 - INFO - Writing chunk 12 of size 2 to database
+2024-04-08 03:37:51,306 - INFO - Chunk 12 written to database
+2024-04-08 03:37:51,306 - INFO - Writing chunk 13 of size 2 to database
+2024-04-08 03:37:51,317 - INFO - Chunk 13 written to database
+2024-04-08 03:37:51,317 - INFO - Writing chunk 14 of size 2 to database
+2024-04-08 03:37:51,327 - INFO - Chunk 14 written to database
+2024-04-08 03:37:51,327 - INFO - Writing chunk 15 of size 2 to database
+2024-04-08 03:37:51,337 - INFO - Chunk 15 written to database
+2024-04-08 03:37:51,337 - INFO - Writing chunk 16 of size 2 to database
+2024-04-08 03:37:51,347 - INFO - Chunk 16 written to database
+2024-04-08 03:37:51,347 - INFO - Writing chunk 17 of size 2 to database
+2024-04-08 03:37:51,358 - INFO - Chunk 17 written to database
+2024-04-08 03:37:51,358 - INFO - Writing chunk 18 of size 2 to database
+2024-04-08 03:37:51,369 - INFO - Chunk 18 written to database
+2024-04-08 03:37:51,369 - INFO - Writing chunk 19 of size 2 to database
+2024-04-08 03:37:51,380 - INFO - Chunk 19 written to database
+2024-04-08 03:37:51,380 - INFO - Writing chunk 20 of size 2 to database
+2024-04-08 03:37:51,391 - INFO - Chunk 20 written to database
+2024-04-08 03:37:51,391 - INFO - Writing chunk 21 of size 2 to database
+2024-04-08 03:37:51,401 - INFO - Chunk 21 written to database
+2024-04-08 03:37:51,401 - INFO - Writing chunk 22 of size 2 to database
+2024-04-08 03:37:51,411 - INFO - Chunk 22 written to database
+2024-04-08 03:37:51,411 - INFO - Total rows written: 44
+2024-04-08 03:38:43,808 - INFO - Writing chunk 1 of size 2 to database with if-exists behavior: replace
+2024-04-08 03:38:44,113 - INFO - Chunk 1 written to database
+2024-04-08 03:38:44,113 - INFO - Writing chunk 2 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,125 - INFO - Chunk 2 written to database
+2024-04-08 03:38:44,125 - INFO - Writing chunk 3 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,137 - INFO - Chunk 3 written to database
+2024-04-08 03:38:44,137 - INFO - Writing chunk 4 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,148 - INFO - Chunk 4 written to database
+2024-04-08 03:38:44,148 - INFO - Writing chunk 5 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,159 - INFO - Chunk 5 written to database
+2024-04-08 03:38:44,159 - INFO - Writing chunk 6 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,170 - INFO - Chunk 6 written to database
+2024-04-08 03:38:44,170 - INFO - Writing chunk 7 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,181 - INFO - Chunk 7 written to database
+2024-04-08 03:38:44,181 - INFO - Writing chunk 8 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,192 - INFO - Chunk 8 written to database
+2024-04-08 03:38:44,192 - INFO - Writing chunk 9 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,203 - INFO - Chunk 9 written to database
+2024-04-08 03:38:44,203 - INFO - Writing chunk 10 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,218 - INFO - Chunk 10 written to database
+2024-04-08 03:38:44,218 - INFO - Writing chunk 11 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,231 - INFO - Chunk 11 written to database
+2024-04-08 03:38:44,232 - INFO - Writing chunk 12 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,244 - INFO - Chunk 12 written to database
+2024-04-08 03:38:44,244 - INFO - Writing chunk 13 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,255 - INFO - Chunk 13 written to database
+2024-04-08 03:38:44,255 - INFO - Writing chunk 14 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,266 - INFO - Chunk 14 written to database
+2024-04-08 03:38:44,266 - INFO - Writing chunk 15 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,279 - INFO - Chunk 15 written to database
+2024-04-08 03:38:44,279 - INFO - Writing chunk 16 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,290 - INFO - Chunk 16 written to database
+2024-04-08 03:38:44,290 - INFO - Writing chunk 17 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,300 - INFO - Chunk 17 written to database
+2024-04-08 03:38:44,300 - INFO - Writing chunk 18 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,311 - INFO - Chunk 18 written to database
+2024-04-08 03:38:44,311 - INFO - Writing chunk 19 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,321 - INFO - Chunk 19 written to database
+2024-04-08 03:38:44,321 - INFO - Writing chunk 20 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,332 - INFO - Chunk 20 written to database
+2024-04-08 03:38:44,332 - INFO - Writing chunk 21 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,343 - INFO - Chunk 21 written to database
+2024-04-08 03:38:44,343 - INFO - Writing chunk 22 of size 2 to database with if-exists behavior: append
+2024-04-08 03:38:44,353 - INFO - Chunk 22 written to database
+2024-04-08 03:38:44,353 - INFO - Total rows written: 44
+2024-04-08 03:39:24,485 - INFO - Writing chunk 1 of size 2 to database with if-exists behavior: replace
+2024-04-08 03:39:24,747 - INFO - Chunk 1 written to database
+2024-04-08 03:39:24,747 - INFO - Writing chunk 2 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,758 - INFO - Chunk 2 written to database
+2024-04-08 03:39:24,758 - INFO - Writing chunk 3 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,770 - INFO - Chunk 3 written to database
+2024-04-08 03:39:24,770 - INFO - Writing chunk 4 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,781 - INFO - Chunk 4 written to database
+2024-04-08 03:39:24,781 - INFO - Writing chunk 5 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,791 - INFO - Chunk 5 written to database
+2024-04-08 03:39:24,792 - INFO - Writing chunk 6 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,803 - INFO - Chunk 6 written to database
+2024-04-08 03:39:24,803 - INFO - Writing chunk 7 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,814 - INFO - Chunk 7 written to database
+2024-04-08 03:39:24,814 - INFO - Writing chunk 8 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,825 - INFO - Chunk 8 written to database
+2024-04-08 03:39:24,825 - INFO - Writing chunk 9 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,837 - INFO - Chunk 9 written to database
+2024-04-08 03:39:24,837 - INFO - Writing chunk 10 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,847 - INFO - Chunk 10 written to database
+2024-04-08 03:39:24,848 - INFO - Writing chunk 11 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,859 - INFO - Chunk 11 written to database
+2024-04-08 03:39:24,859 - INFO - Writing chunk 12 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,869 - INFO - Chunk 12 written to database
+2024-04-08 03:39:24,870 - INFO - Writing chunk 13 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,880 - INFO - Chunk 13 written to database
+2024-04-08 03:39:24,881 - INFO - Writing chunk 14 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,891 - INFO - Chunk 14 written to database
+2024-04-08 03:39:24,891 - INFO - Writing chunk 15 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,902 - INFO - Chunk 15 written to database
+2024-04-08 03:39:24,902 - INFO - Writing chunk 16 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,912 - INFO - Chunk 16 written to database
+2024-04-08 03:39:24,912 - INFO - Writing chunk 17 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,923 - INFO - Chunk 17 written to database
+2024-04-08 03:39:24,923 - INFO - Writing chunk 18 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,934 - INFO - Chunk 18 written to database
+2024-04-08 03:39:24,934 - INFO - Writing chunk 19 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,944 - INFO - Chunk 19 written to database
+2024-04-08 03:39:24,944 - INFO - Writing chunk 20 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,954 - INFO - Chunk 20 written to database
+2024-04-08 03:39:24,955 - INFO - Writing chunk 21 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,966 - INFO - Chunk 21 written to database
+2024-04-08 03:39:24,966 - INFO - Writing chunk 22 of size 2 to database with if-exists behavior: append
+2024-04-08 03:39:24,976 - INFO - Chunk 22 written to database
+2024-04-08 03:39:24,976 - INFO - Total rows written: 44
+2024-04-08 03:40:08,540 - INFO - Writing chunk 1 of size 2 to database with if-exists behavior: replace
+2024-04-08 03:40:08,824 - INFO - Chunk 1 written to database
+2024-04-08 03:40:08,824 - INFO - Writing chunk 2 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,836 - INFO - Chunk 2 written to database
+2024-04-08 03:40:08,836 - INFO - Writing chunk 3 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,847 - INFO - Chunk 3 written to database
+2024-04-08 03:40:08,847 - INFO - Writing chunk 4 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,857 - INFO - Chunk 4 written to database
+2024-04-08 03:40:08,857 - INFO - Writing chunk 5 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,869 - INFO - Chunk 5 written to database
+2024-04-08 03:40:08,869 - INFO - Writing chunk 6 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,879 - INFO - Chunk 6 written to database
+2024-04-08 03:40:08,879 - INFO - Writing chunk 7 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,889 - INFO - Chunk 7 written to database
+2024-04-08 03:40:08,889 - INFO - Writing chunk 8 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,900 - INFO - Chunk 8 written to database
+2024-04-08 03:40:08,900 - INFO - Writing chunk 9 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,910 - INFO - Chunk 9 written to database
+2024-04-08 03:40:08,910 - INFO - Writing chunk 10 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,920 - INFO - Chunk 10 written to database
+2024-04-08 03:40:08,920 - INFO - Writing chunk 11 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,931 - INFO - Chunk 11 written to database
+2024-04-08 03:40:08,931 - INFO - Writing chunk 12 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,941 - INFO - Chunk 12 written to database
+2024-04-08 03:40:08,941 - INFO - Writing chunk 13 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,952 - INFO - Chunk 13 written to database
+2024-04-08 03:40:08,952 - INFO - Writing chunk 14 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,962 - INFO - Chunk 14 written to database
+2024-04-08 03:40:08,962 - INFO - Writing chunk 15 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,974 - INFO - Chunk 15 written to database
+2024-04-08 03:40:08,974 - INFO - Writing chunk 16 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,984 - INFO - Chunk 16 written to database
+2024-04-08 03:40:08,984 - INFO - Writing chunk 17 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:08,994 - INFO - Chunk 17 written to database
+2024-04-08 03:40:08,994 - INFO - Writing chunk 18 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:09,004 - INFO - Chunk 18 written to database
+2024-04-08 03:40:09,004 - INFO - Writing chunk 19 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:09,014 - INFO - Chunk 19 written to database
+2024-04-08 03:40:09,014 - INFO - Writing chunk 20 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:09,024 - INFO - Chunk 20 written to database
+2024-04-08 03:40:09,024 - INFO - Writing chunk 21 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:09,034 - INFO - Chunk 21 written to database
+2024-04-08 03:40:09,035 - INFO - Writing chunk 22 of size 2 to database with if-exists behavior: append
+2024-04-08 03:40:09,045 - INFO - Chunk 22 written to database
+2024-04-08 03:40:09,045 - INFO - Total rows written: 44
+2024-04-08 03:42:32,681 - INFO - Writing chunk 1 of size 2 to database with if-exists behavior: replace
+2024-04-08 03:42:32,961 - INFO - Chunk 1 written to database
+2024-04-08 03:42:32,962 - INFO - Writing chunk 2 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:32,977 - INFO - Chunk 2 written to database
+2024-04-08 03:42:32,977 - INFO - Writing chunk 3 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:32,988 - INFO - Chunk 3 written to database
+2024-04-08 03:42:32,988 - INFO - Writing chunk 4 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,001 - INFO - Chunk 4 written to database
+2024-04-08 03:42:33,001 - INFO - Writing chunk 5 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,015 - INFO - Chunk 5 written to database
+2024-04-08 03:42:33,015 - INFO - Writing chunk 6 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,029 - INFO - Chunk 6 written to database
+2024-04-08 03:42:33,029 - INFO - Writing chunk 7 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,043 - INFO - Chunk 7 written to database
+2024-04-08 03:42:33,043 - INFO - Writing chunk 8 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,054 - INFO - Chunk 8 written to database
+2024-04-08 03:42:33,054 - INFO - Writing chunk 9 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,064 - INFO - Chunk 9 written to database
+2024-04-08 03:42:33,064 - INFO - Writing chunk 10 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,075 - INFO - Chunk 10 written to database
+2024-04-08 03:42:33,075 - INFO - Writing chunk 11 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,085 - INFO - Chunk 11 written to database
+2024-04-08 03:42:33,085 - INFO - Writing chunk 12 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,095 - INFO - Chunk 12 written to database
+2024-04-08 03:42:33,095 - INFO - Writing chunk 13 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,106 - INFO - Chunk 13 written to database
+2024-04-08 03:42:33,106 - INFO - Writing chunk 14 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,116 - INFO - Chunk 14 written to database
+2024-04-08 03:42:33,116 - INFO - Writing chunk 15 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,129 - INFO - Chunk 15 written to database
+2024-04-08 03:42:33,129 - INFO - Writing chunk 16 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,139 - INFO - Chunk 16 written to database
+2024-04-08 03:42:33,139 - INFO - Writing chunk 17 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,150 - INFO - Chunk 17 written to database
+2024-04-08 03:42:33,150 - INFO - Writing chunk 18 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,160 - INFO - Chunk 18 written to database
+2024-04-08 03:42:33,160 - INFO - Writing chunk 19 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,171 - INFO - Chunk 19 written to database
+2024-04-08 03:42:33,171 - INFO - Writing chunk 20 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,181 - INFO - Chunk 20 written to database
+2024-04-08 03:42:33,181 - INFO - Writing chunk 21 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,191 - INFO - Chunk 21 written to database
+2024-04-08 03:42:33,191 - INFO - Writing chunk 22 of size 2 to database with if-exists behavior: append
+2024-04-08 03:42:33,201 - INFO - Chunk 22 written to database
+2024-04-08 03:42:33,201 - INFO - Total rows written: 44

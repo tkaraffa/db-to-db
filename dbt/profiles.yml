@@ -1,23 +1,11 @@
-trino_project:
+db_to_db:
   target: postgres
   outputs:
     postgres:
-      type: trino
-      method: none
-      user: .
-      password: .
-      host: trino-coordinator
-      database: postgres
-      schema: public
-      port: 8080
-      threads: 1
-    mysql:
-      type: trino
-      method: none
-      user: .
-      password: .
-      host: trino-coordinator
-      database: mysql
-      schema: tiny
-      port: 8080
-      threads: 1
+      type: postgres
+      host: postgres-target
+      user: pg
+      password: pg
+      port: 5430
+      dbname: pgdatabase
+      schema: ""
