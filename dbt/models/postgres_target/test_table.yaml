@@ -10,4 +10,4 @@ models:
       unique_key: "id"
       incremental_strategy: "merge"
       post-hook:
-        - 'truncate table {{''{{ source("raw", this.identifier) }}''}}'
+        - 'delete from {{''{{ source("raw", this.identifier) }}''}} where date >= ''{{''{{var("start_date")}}''}}'' and date < ''{{''{{var("end_date")}}''}}'''

@@ -11,12 +11,12 @@ services:
       - TARGET_PASSWORD=pg
       - TARGET_DATABASE=pgdatabase
       - TARGET_PORT=5430
-      - TARGET_HOST=postgres-target
+      - TARGET_HOST=target
       - SOURCE_USER=pg
       - SOURCE_PASSWORD=pg
       - SOURCE_DATABASE=pgdatabase
       - SOURCE_PORT=5431
-      - SOURCE_HOST=postgres-source
+      - SOURCE_HOST=source
     volumes:
       - ./src:/src
     networks:
@@ -43,13 +43,12 @@ services:
       - '8080:8080'
     volumes:
       - ./etc:/etc/trino
-      - ./sql:/sql
     networks:
       - trino-network
 
-  postgres-target:
+  target:
     image: postgres:latest
-    hostname: postgres-target
+    hostname: target
     ports:
       - '5430:5430'
     environment:
@@ -60,9 +59,9 @@ services:
     networks:
       - trino-network
 
-  postgres-source:
+  source:
     image: postgres:latest
-    hostname: postgres-source
+    hostname: source
     ports:
       - '5431:5431'
     environment:

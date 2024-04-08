@@ -1,1 +1,0 @@
-insert into postgres.public.target select * from mysql.tiny.source;

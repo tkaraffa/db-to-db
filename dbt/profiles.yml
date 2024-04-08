@@ -3,7 +3,7 @@ db_to_db:
   outputs:
     postgres:
       type: postgres
-      host: postgres-target
+      host: target
       user: pg
       password: pg
       port: 5430
